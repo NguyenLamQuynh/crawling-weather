@@ -81,7 +81,7 @@ def extract_all_district(list_district):
 
 
 if __name__ == "__main__":
-    api_key = "PGFTWKEV5MRZUKWTFH93UPBXT"
+    api_key = "YOUR_API_KEY"
 
     with open("location.txt",'r', encoding='utf-8') as f:
         list_district = [line.strip() for line in f.readlines()]
